@@ -37,11 +37,17 @@ public:
 	int newXvalue, newYvalue;
 	Derived()
 	{
-		cout << "Derived Class Constructor." << endl;
-		
+		cout << "Derived Class Constructor." << endl;		
+	}	
+};
+
+class NewClass
+{
+public:
+	NewClass()
+	{	
+		cout << "New Class Constructor" << endl;
 	}
-	
-	
 };
 
 int main()
